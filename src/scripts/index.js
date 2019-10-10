@@ -2,7 +2,9 @@ import ready from 'domready';
 
 import App from './App';
 
-ready(() => {
+const initParticlesEffect = () => {
 	window.app = new App();
 	window.app.init();
-});
+};
+
+window.initParticlesEffect = initParticlesEffect;

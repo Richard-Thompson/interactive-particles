@@ -12,8 +12,7 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__root, 'dist'),
-		filename: 'scripts/[name].[chunkhash].js',
-		chunkFilename: 'scripts/[name].[chunkhash].js',
+		filename: 'bundle.js',
 	},
 	module: {
 		rules: [

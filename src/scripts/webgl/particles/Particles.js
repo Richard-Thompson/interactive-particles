@@ -20,8 +20,8 @@ export default class Particles {
 			this.texture.magFilter = THREE.LinearFilter;
 			this.texture.format = THREE.RGBFormat;
 
-			this.width = window.innerWidth;
-			this.height = window.innerHeight;
+			this.width = window.innerWidth/2;
+			this.height = window.innerHeight/2;
 
 			this.initPoints(true);
 			this.initHitArea();
